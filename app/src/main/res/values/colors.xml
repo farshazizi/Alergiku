@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hitam">#000000</color>
+    <color name="putih">#fff</color>
+    <color name="abu">#9E9E9E</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#fff</color>
+    <color name="bg_screen2">#fff</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FF4081</color>
+    <color name="dot_light_screen2">#FF4081</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#C62828</color>
+    <color name="dot_dark_screen2">#C62828</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+
+</resources>
