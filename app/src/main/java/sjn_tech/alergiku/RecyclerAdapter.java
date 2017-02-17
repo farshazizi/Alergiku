@@ -16,9 +16,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
     private final Context context;
 
-    String [] name = {"Pengenalan", "Tips & Trik"};
-    String [] desk = {"Apa sih alergi itu?", "Abcd"};
-    String [] icon = {R.drawable.virus1, R.drawable.virus1};
+    String [] name = {"Pengenalan", "Tips & Trik", "Simulasi", "Tentang Kami"};
+    String [] desk = {"Apa sih alergi itu?", "Menghindari alergi", "Kenali alergi dengan simulasi sederhana", "Memperkenalkan kami"};
+    int [] icon = {R.drawable.perkenalan, R.drawable.tnt, R.drawable.simulasi, R.drawable.aboutus};
     // menampilkan list item dalam bentuk text dengan tipe data string dengan variable name
 
     LayoutInflater inflater;
@@ -26,24 +26,26 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
         this.context=context;
         inflater=LayoutInflater.from(context);
     }
+
     @Override
     public RecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = inflater.inflate(R.layout.item_list, parent, false);
 
-        RecyclerViewHolder viewHolder=new RecyclerViewHolder(v);
+        RecyclerViewHolder viewHolder = new RecyclerViewHolder(v);
         return viewHolder;
     }
 
     @Override
     public void onBindViewHolder(RecyclerViewHolder holder, int position) {
-        holder.tv1.setText(name[position]);
-        holder.tv1.setOnClickListener(clickListener);
-        holder.tv1.setTag(holder);
+        holder.judul.setText(name[position]);
+        holder.judul.setOnClickListener(clickListener);
+        holder.judul.setTag(holder);
 
-        holder.tv2.setText(desk[position]);
-        holder.tv2.setOnClickListener(clickListener);
-        holder.tv2.setTag(holder);
+        holder.deskripsi.setText(desk[position]);
+        holder.deskripsi.setOnClickListener(clickListener);
+        holder.deskripsi.setTag(holder);
 
+        holder.imageView.setImageResource(icon[position]);
         holder.imageView.setOnClickListener(clickListener);
         holder.imageView.setTag(holder);
     }
@@ -57,6 +59,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
             if (position == 0) {
                 Intent intent = new Intent(context.getApplicationContext(), Pengenalan.class);
+                context.startActivity(intent);
+            } else if (position == 1) {
+                Intent intent = new Intent(context.getApplicationContext(), TipsAndTrick.class);
+                context.startActivity(intent);
+            } else if (position == 2) {
+                Intent intent = new Intent(context.getApplicationContext(), SimulasiSoal1.class);
+                context.startActivity(intent);
+            } else if (position == 3) {
+                Intent intent = new Intent(context.getApplicationContext(), AboutUs.class);
                 context.startActivity(intent);
             }
 //            Toast.makeText(context, "Menu ini berada di posisi " + position, Toast.LENGTH_LONG).show();

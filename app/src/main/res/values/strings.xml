@@ -11,6 +11,9 @@
     <string name="slide_2_title">Tips dan Trik</string>
     <string name="slide_2_desc">Dapatkan tips dan trik untuk mengenali alergimu dan menghindarinya</string>
 
+    <string name="slide_3_title">Simulasi Sederhana</string>
+    <string name="slide_3_desc">Lakukan simulasi sederhana untuk mengetahui alergimu akan seafood</string>
+
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
 
@@ -18,4 +21,28 @@
 
     <string name="pengenalan">PENGENALAN</string>
     <string name="deskripsi">Apa sih alergi itu?</string>
+    <string name="paragraf1">Alergi merupakan bentuk reaksi sistem kekebalan tubuh terhadap sesuatu yang dianggap berbahaya walaupun sebenarnya tidak. Ini bisa berupa substansi yang masuk atau bersentuhan dengan tubuh. Alergen atau substansi pemicu alergi hanya berdampak pada orang yang memiliki alergi tersebut. Pada orang lain, alergen tersebut tidak akan memicu reaksi kekebalan tubuh.</string>
+    <string name="paragraf2">Beberapa jenis substansi yang dapat menyebabkan reaksi alergi meliputi gigitan serangga, tungau debu, bulu hewan, obat-obatan, makanan tertentu, serta serbuk sari. Saat tubuh pertama kali berpapasan dengan sebuah alergen, tubuh akan memproduksi antibodi karena menganggapnya sebagai sesuatu yang berbahaya. Jika tubuh kembali berpapasan dengan alergen yang sama, tubuh akan meningkatkan jumlah antibodi terhadap jenis alergen tersebut. Hal inilah yang memicu pelepasan senyawa kimia dalam tubuh dan menyebabkan gejala-gejala alergi (www.alodokter.com/alergi).</string>
+
+    <string name="judulisitnt1">Apa yang menyebabkan memicu alergi?</string>
+    <string name="isitnt1">Faktor seperti lingkungan, cuaca dan polusi yang memburuk dapat menambah jumlah penderita alergi. Zat pengawet makanan maupnun zat-zat lainnya yang terdapat di rumah, seperti pembersih lantai, pencuci pakaian, kosmetik, obat-obatan, produk-produk perawatan, juga dapat dapat menjadi pemicu alergi. Beberapa jenis alergi dapat diderita oleh seseorang yang mempunyai kesensitifan berlebih atau diatas rata-rata di tubuhnya.</string>
+
+    <string name="judulisitnt2">Apa tips and trik untuk mengatasi dan mencegah alergi?</string>
+    <string name="isitnt2">Terdapat beberapa cara untuk mengatasi dan mencegah alergi, yang pertama adalah dengan menghindari benda – benda atau hal-hal yang dapat menyebabkan timbulnya alergi pada penderita. Kedua adalah dengan membersihkan lingungak terkedat anda, seperti kamar, kantor, sekolah dan lain lain. Cara ketiga adalah dengan mengonsumsi jenis-jenis makanan dan supleme tertentu yang mengandung zat kekebalan tubuh. Selain itu juga pilih makanan yang mengandung antioksidan untuk menjaga kesehatan.</string>
+
+    <string name="tnt_judul">Apa yang dapat memicu alergi?</string>
+
+    <string name="simulasisoal1">Pernah mengalami gatal-gatal setelah makan makanan seafood?</string>
+    <string name="simulasisoal2">Pernah mengalami sakit perut/mual-mual/diare setelah makan makanan seafood?</string>
+    <string name="simulasisoal3">Pernah mengalami pembengkakan pada kulit?</string>
+    <string name="simulasisoal4">Kesulitan bernapas setelah makan makanan seafood?</string>
+    <string name="simulasisoal5">Merasakan geli didalam mulut setelah makan makanan seafood?</string>
+
+    <string name="nama_tim">SJN-Tech</string>
+    <string name="jabatan1">Ketua kelompok</string>
+    <string name="anggota1">Farsha Azizi</string>
+    <string name="jabatan2">Anggota kelompok</string>
+    <string name="anggota2">Qowiyyu Adzkar</string>
+    <string name="jabatan3">Anggota kelompok</string>
+    <string name="anggota3">M. Sofa Yuliansyah</string>
 </resources>

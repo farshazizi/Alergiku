@@ -8,11 +8,15 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView img_mainView;
     RecyclerView recyclerView;
 
     @Override
@@ -21,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.middle_title_bar);
+
+        img_mainView = (ImageView) findViewById(R.id.img_mainView);
+        Picasso.with(getApplicationContext())
+                .load("http://i38.photobucket.com/albums/e111/Azizi_Farsha/Alergiku_MAGE17/micro_zps2ystxtvn.jpg")
+                .into(img_mainView);
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 

@@ -2,24 +2,46 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sjn_tech.alergiku">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/iconapp"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".Welcome"
-            android:theme="@style/TanpaActionBar">
+            android:screenOrientation="portrait"
+            android:theme="@style/TanpaActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pengenalan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TipsAndTrick"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_welcome"></activity>
-        <activity android:name=".Pengenalan"></activity>
+        <activity android:name=".IsiTipsAndTrick1" />
+        <activity android:name=".IsiTipsAndTrick2" />
+        <activity android:name=".SimulasiSoal1" />
+        <activity android:name=".SimulasiSoal2"></activity>
     </application>
 
 </manifest>
